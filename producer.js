@@ -1,3 +1,10 @@
+/*
+in ubuntu terminal
+
+sudo apt-get install rabbitmq-server
+sudo service rabbitmq-server start
+*/
+
 const {Queue} = require('bullmq');
 
 const notificationQueue = new Queue('email-queue', {
